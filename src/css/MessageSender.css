@@ -1,0 +1,51 @@
+.msgSender {
+  width: 100%;
+  box-shadow: 0px 5px 9px -7px rgba(0, 0, 0, 75);
+  margin-top: 20px;
+}
+.msgSender__top {
+  align-content: center;
+  display: flex;
+  padding: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  border-bottom: solid 1px #e4e6e9;
+}
+form {
+  flex: 1;
+}
+.msgInput,
+.imgInput {
+  background-color: #e4e6e9;
+  outline: none;
+  border-radius: 20px;
+  margin: 8px;
+  padding: 10px;
+  border: none;
+}
+.msgInput {
+  width: 320px;
+}
+.postBtn {
+  display: none;
+}
+.msgSender {
+  background-color: white;
+  border-radius: 10px;
+}
+.msgSender__bottom {
+  justify-content: space-around;
+
+  padding: 10px;
+  display: flex;
+}
+.msgSender__bottom--op {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.msgSender__bottom--op > h3 {
+  margin-left: 10px;
+  margin-right: 20px;
+}

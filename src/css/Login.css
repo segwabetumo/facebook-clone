@@ -1,0 +1,37 @@
+.login__logo > img {
+  height: 200px;
+}
+.login__text > img {
+  height: 100px;
+  align-items: center;
+}
+.login__text {
+  display: flex;
+  place-items: center;
+  text-align: center;
+  color: #2b9100;
+}
+
+.login {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.login__btn > button {
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  font-size: 20px;
+  outline: none;
+}
+.login__btn > button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.login__btn {
+  padding: 100px;
+}

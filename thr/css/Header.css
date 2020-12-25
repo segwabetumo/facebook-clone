@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  margin-left: 8px;
+  margin-right: 8px;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 75);
+  background-color: white;
+  z-index: 100;
+}
+.left__header {
+  display: flex;
+  align-items: center;
+}
+.fbIcon {
+  color: #1196f5;
+}
+.header__search {
+  align-items: center;
+  display: flex;
+  background-color: #f0f2f5;
+  padding: 6px;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+.inputS {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  min-width: 180px;
+  color: #797f87;
+  outline-style: none;
+}
+.searchIcon {
+  color: #797f87;
+}
+/* middle header*/
+.middle__header {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  margin-right: 80px;
+}
+
+/* right header */
+.right__header .user {
+  display: flex;
+  align-items: center;
+}
+.user h5 {
+  margin-left: 10px;
+}
+.user__sett {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.settIcon {
+  border-radius: 100px;
+}
